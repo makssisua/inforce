@@ -1,0 +1,93 @@
+[{
+  "id": 1,
+  "imageUrl": "https://resource.logitech.com/w_800,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/m190-wireless-mouse/m190-wireless-mouse-midgrey-glamour-lg.png?v=1",
+  "name": "Mouse",
+  "count": 1,
+  "size": {
+  "width": 200,
+  "height": 200
+  },
+  "weight": "100g",
+  "comments": [{
+    "id": 1,
+    "productId": 1,
+    "description": "some text here",
+    "date": "14:00 22.08.2021"
+    }, 
+    {
+      "id": 2,
+      "productId": 1,
+      "description": "some text here",
+      "date": "12:00 22.08.2021"
+      }]
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://hotline.ua/img/tx/541/541438565.jpg",
+    "name": "Keyboard",
+    "count": 2,
+    "size": {
+    "width": 200,
+    "height": 200
+    },
+    "weight": "200g",
+    "comments": [{
+      "id": 1,
+      "productId": 2,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+      }, 
+      {
+        "id": 2,
+        "productId": 2,
+        "description": "some text here",
+        "date": "12:00 22.08.2021"
+        }]
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://www.mytrendyphone.eu/images/Forever-Music-Soul-BHS-300-Bluetooth-Headphones-with-Microphone-Black-5900495738110-17072019-01.jpg",
+    "name": "Headphone",
+    "count": 3,
+    "size": {
+    "width": 200,
+    "height": 200
+    },
+    "weight": "300g",
+    "comments": [{
+      "id": 1,
+      "productId": 3,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+      }, 
+      {
+        "id": 2,
+        "productId": 3,
+        "description": "some text here",
+        "date": "12:00 22.08.2021"
+        }]
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://images.philips.com/is/image/PhilipsConsumer/243V7QDAB_00-IMS-ru_UA?wid=420&hei=360&$jpglarge$",
+      "name": "Display",
+      "count": 4,
+      "size": {
+      "width": 200,
+      "height": 200
+      },
+      "weight": "400g",
+      "comments": [{
+        "id": 1,
+        "productId": 4,
+        "description": "some text here",
+        "date": "14:00 22.08.2021"
+        }, 
+        {
+          "id": 2,
+          "productId": 4,
+          "description": "some text here",
+          "date": "12:00 22.08.2021"
+          }]
+    }
+]
