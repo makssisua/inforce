@@ -6,10 +6,10 @@ import './ProductList.css'
 
 export const ProductList = () => {
   const dispatch = useDispatch()
-  const { products } = useSelector(state => state.productReducer)
+  const { products, isLoading } = useSelector(state => state.productReducer)
 
   useEffect(() => {
-    if (products.length === 0) {
+    if (products?.length === 0) {
       dispatch(fetchProduct())
     } else {
       localStorage.setItem('products', JSON.stringify(products))
@@ -17,12 +17,19 @@ export const ProductList = () => {
   }, [])
   
   return (
+    <>
+      {isLoading && 
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      }
     <ul className='productList'>
-      {products.map(product => 
+      {products?.map(product => 
         <li key={product.id}>
           <ProductCard product={product}/>
         </li>
       )}
     </ul>
+    </>
   )
 }
