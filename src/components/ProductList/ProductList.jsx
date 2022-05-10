@@ -9,12 +9,14 @@ export const ProductList = () => {
   const { products, isLoading } = useSelector(state => state.productReducer)
 
   useEffect(() => {
-    if (products?.length === 0) {
+    if(products?.length < 1 || products === null) {
       dispatch(fetchProduct())
-    } else {
-      localStorage.setItem('products', JSON.stringify(products))
     }
   }, [])
+
+  useEffect(() => {
+    localStorage.setItem('products', JSON.stringify(products))
+  }, [products])
   
   return (
     <>
