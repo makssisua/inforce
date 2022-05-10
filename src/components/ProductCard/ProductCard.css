@@ -1,0 +1,10 @@
+.product {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.product__img {
+  height: 200px;
+  object-fit: scale-down
+}
