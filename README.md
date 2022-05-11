@@ -1,5 +1,5 @@
 # Inforce test project
-<b>DEMO</b> ----> https://makssisua.github.io/inforce/ <br><br>
+<b>DEMO</b> ----> https://makssisua.github.io/inforce/ <br>
 Developer command: <br>
 Install modules: npm install <br>
 Start local project: npm start
