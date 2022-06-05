@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
+import { HashRouter } from "react-router-dom";
 import { setupStore  } from './store/store' 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,7 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const store = setupStore();
 
 root.render(
-  <Provider store={store}>
-    <App />
-  </Provider>
+  <HashRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </HashRouter>
 );

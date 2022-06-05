@@ -23,8 +23,14 @@ export const productSlice = createSlice({
       state.isLoading = false;
       state.error = action.payload
     },
-    deleteContact(state, action) {
+    deleteProduct(state, action) {
       state.products = state.products.filter(el => el.id !== Number(action.payload) )
+    },
+    addProduct(state, action) {
+      state.products = [
+        ...state.products,
+        action.payload
+      ]
     }
   }
 })

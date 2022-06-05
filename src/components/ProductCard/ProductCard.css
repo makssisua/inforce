@@ -6,5 +6,14 @@
 
 .product__img {
   height: 200px;
-  object-fit: scale-down
+  object-fit: scale-down;
+  transition: transform .2s;
+}
+
+.product__img:hover {
+  transform: scale(90%);
+}
+
+.link__item {
+  text-decoration: none;
 }
